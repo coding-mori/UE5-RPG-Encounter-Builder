@@ -7,16 +7,16 @@ This project is a specialised Unreal Engine 5 editor plugin designed to fix the 
 ## Planned Tool Features
 
 - **Live Budget Tracking**
-  - A "enemy credit budget" can be set and select enemy archetypes from a custom UI panel that calculates rough difficulty metrics in real-time.
+  A "enemy credit budget" can be set and select enemy archetypes from a custom UI panel that calculates rough difficulty metrics in real-time.
 
 - **Interactive Viewport Brushes**
-  - Designers can paint spawn points directly into the 3D viewport. The tool automatically snaps spawns flush to the NavMesh, preventing invalid pathing.
+  Designers can paint spawn points directly into the 3D viewport. The tool automatically snaps spawns flush to the NavMesh, preventing invalid pathing.
 
 - **Automated Validation**
-  - A one-click audit scans the encounter for spatial clearance, line-of-sight - occlusion, and NavMesh connectivity, outputting any errors detected to the editor's message log.
+  A one-click audit scans the encounter for spatial clearance, line-of-sight - occlusion, and NavMesh connectivity, outputting any errors detected to the editor's message log.
 
 - **Transaction Safety**
-  - Full integration with Unreal's undo/redo buffer to enable non-destructive iteration.
+  Full integration with Unreal's undo/redo buffer to enable non-destructive iteration.
 
 ## Rough Plan for Tool's Architecture
 
